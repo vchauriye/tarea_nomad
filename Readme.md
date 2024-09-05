@@ -8,4 +8,4 @@
 
 *Para inicar el frontend se requiere docker. Se debe correr el comando: `docker-compose up --build`
 
-*Para iniciar el backend se requiere docker. Se debe correr el comando `docker-compose up`, luego el `comando docker-compose run web python manage.py reset_db_and_populate` para resetaer la base de datos y correr miugraciones y finalmente el comando `docker-compose build` 
+*Para iniciar el backend se requiere docker. Se debe correr el comando  `docker-compose build`, luego el `comando docker-compose run web python manage.py reset_db_and_populate` para resetaer la base de datos y correr miugraciones y finalmente el comando `docker-compose up` 
